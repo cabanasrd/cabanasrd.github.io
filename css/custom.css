@@ -183,7 +183,9 @@ margin: 0 auto;
     height: 100%;
     background-color: rgba(204, 102, 51, 0.9);
 }
-
+.testClass{
+    
+}
 .section-parallax {
     min-height: 100%;
     
@@ -283,7 +285,6 @@ vertical-align: middle;
 		font-size: 29px;
 	}
 }
-
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.product-info {
@@ -313,6 +314,7 @@ vertical-align: middle;
     .gplay{
     width: 220px;
 }
+
 }
 
 /* Landscape phones and smaller */
