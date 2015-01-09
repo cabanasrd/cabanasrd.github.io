@@ -280,21 +280,21 @@ vertical-align: middle;
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.product-info {
-		font-size: 40px;
+		font-size: 29px;
 	}
 }
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 	.product-info {
-		font-size: 35px;
+		font-size: 24px;
 	}
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 	.product-info {
-		font-size: 32px;
+		font-size: 21px;
 	}
     .rightColTextWrap {
         margin-right: 0px;
@@ -304,7 +304,7 @@ vertical-align: middle;
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 	.product-info {
-		font-size: 25px;
+		font-size: 15px;
 	}
     .logo{
             opacity: 0.7;
@@ -318,7 +318,7 @@ vertical-align: middle;
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
 	.product-info {
-		font-size: 20px;
+		font-size: 12px;
 	}
     .logo{
     width: 230px;
