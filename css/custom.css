@@ -184,7 +184,7 @@ margin: 0 auto;
     background-color: rgba(204, 102, 51, 0.9);
 }
 .testClass{
-    
+
 }
 .section-parallax {
     min-height: 100%;
@@ -320,8 +320,11 @@ vertical-align: middle;
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
 	.product-info {
-		font-size: 12px;
+		font-size: 19px;
 	}
+    .title {
+        font-size: 49px;
+    }
     .logo{
     width: 230px;
     opacity: 0.7;
