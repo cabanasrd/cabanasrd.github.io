@@ -10,6 +10,14 @@
     font-style: normal;
 
 }
+.linkTo{
+    color: #fff;
+    text-decoration: none;
+}
+.linkTo:hover{
+    color: #3D3D3D;
+    text-decoration: none;
+}
 .iconLeftColWrap{
     transform:translate(0,0) translate3d(0px,0,0);
     -webkit-transform:translate(0,0) translate3d(0px,0,0);
