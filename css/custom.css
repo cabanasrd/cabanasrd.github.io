@@ -10,6 +10,23 @@
     font-style: normal;
 
 }
+.thumbnail {
+display: block;
+padding: 4px;
+margin-bottom: 20px;
+line-height: 1.42857143;
+background-color: #fff;
+border: none;
+padding: 20px;
+border-radius: 4px;
+transition:background .3s,color .3s, padding .3s;
+-webkit-transition:background .3s,color .3s, padding .3s;
+}
+.thumbnail:hover{
+    background-color: #FF9139;
+    padding: 25px;
+}
+
 .linkTo{
     color: #fff;
     text-decoration: none;
@@ -239,6 +256,22 @@ font-family: 'robotothin';
 }
 .social{
     font-size: 60px;
+}
+.socialTeam {
+font-size: 35px;
+}
+
+.socialTeam .fi{
+    cursor: pointer;
+}
+
+#team .fi{
+    cursor: pointer;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+#team .fi:hover{
+    color: #fff;
 }
 #footer .fi{
     cursor: pointer;
