@@ -11,8 +11,6 @@
 
 }
 
-
-
 .thumbnail {
 display: block;
 padding: 4px;
@@ -360,7 +358,7 @@ vertical-align: middle;
 }
 
 }
-/* Landscape phones and smaller */
+/* Landscape phones and smaller phones*/
 @media (max-width: 480px) {
 	.product-info {
 		font-size: 19px;
