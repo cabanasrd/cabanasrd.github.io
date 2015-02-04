@@ -1,1 +1,189 @@
-var _0x4746=["\x76\x69\x73\x69\x62\x6C\x65\x41\x6E\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x66\x61\x64\x65\x49\x6E\x44\x6F\x77\x6E","\x76\x69\x65\x77\x70\x6F\x72\x74\x43\x68\x65\x63\x6B\x65\x72","\x68\x69\x64\x64\x65\x6E\x41\x6E","\x61\x64\x64\x43\x6C\x61\x73\x73","\x2E\x70\x6F\x73\x74\x44\x6F\x77\x6E","\x76\x69\x73\x69\x62\x6C\x65\x41\x6E\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x66\x61\x64\x65\x49\x6E\x4C\x65\x66\x74","\x2E\x70\x6F\x73\x74\x4C\x65\x66\x74","\x76\x69\x73\x69\x62\x6C\x65\x41\x6E\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x66\x61\x64\x65\x49\x6E\x52\x69\x67\x68\x74","\x2E\x70\x6F\x73\x74\x52\x69\x67\x68\x74","\x76\x69\x73\x69\x62\x6C\x65\x41\x6E\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x66\x61\x64\x65\x49\x6E\x55\x70","\x2E\x70\x6F\x73\x74\x55\x70","\x76\x69\x73\x69\x62\x6C\x65\x41\x6E\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x7A\x6F\x6F\x6D\x49\x6E","\x2E\x70\x6F\x73\x74\x5A\x6F\x6F\x6D","\x76\x69\x73\x69\x62\x6C\x65\x41\x6E\x20\x61\x6E\x69\x6D\x61\x74\x65\x64\x20\x62\x6F\x75\x6E\x63\x65\x49\x6E\x44\x6F\x77\x6E","\x2E\x70\x6F\x73\x74\x42\x6F\x75\x6E\x63\x65\x44\x6F\x77\x6E","\x76\x61\x6C","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x65\x6D\x61\x69\x6C\x22\x5D","\x66\x69\x6E\x64","\x69\x6E\x70\x75\x74\x5B\x6E\x61\x6D\x65\x3D\x22\x73\x75\x62\x6A\x65\x63\x74\x22\x5D","\x74\x65\x78\x74\x61\x72\x65\x61\x5B\x6E\x61\x6D\x65\x3D\x22\x6D\x65\x73\x73\x61\x67\x65\x22\x5D","\x6C\x6F\x61\x64\x69\x6E\x67","\x62\x75\x74\x74\x6F\x6E","\x69\x6E\x70\x75\x74\x5B\x74\x79\x70\x65\x3D\x22\x73\x75\x62\x6D\x69\x74\x22\x5D","\x73\x75\x62\x6D\x69\x74","\x23\x73\x65\x6E\x64\x6D\x61\x69\x6C","\x72\x65\x61\x64\x79","\x6C\x6F\x67","\x73\x68\x6F\x77","\x6D\x6F\x64\x61\x6C","\x23\x6D\x79\x4D\x6F\x64\x61\x6C","\x68\x69\x64\x65","\x68\x69\x64\x64\x65\x6E","\x72\x65\x6D\x6F\x76\x65\x43\x6C\x61\x73\x73","\x23\x6D\x79\x41\x6C\x65\x72\x74","\x64\x6F\x6E\x65","\x50\x4F\x53\x54","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6D\x61\x6E\x64\x72\x69\x6C\x6C\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x70\x69\x2F\x31\x2E\x30\x2F\x6D\x65\x73\x73\x61\x67\x65\x73\x2F\x73\x65\x6E\x64\x2E\x6A\x73\x6F\x6E","\x54\x6C\x51\x37\x32\x61\x76\x31\x6C\x47\x66\x62\x77\x51\x77\x35\x32\x6C\x4B\x47\x41\x41","\x64\x65\x76\x73\x63\x61\x62\x61\x6E\x61\x73\x72\x64\x40\x67\x6D\x61\x69\x6C\x2E\x63\x6F\x6D","\x43\x61\x62\x61\x6E\x61\x73\x52\x44\x20\x41\x70\x70","\x74\x6F","\x61\x6E\x67\x65\x6C\x72\x65\x6E\x65\x67\x61\x72\x63\x69\x61\x31\x33\x40\x67\x6D\x61\x69\x6C\x2E\x63\x6F\x6D","\x41\x6E\x67\x65\x6C\x20\x47\x61\x72\x63\x69\x61","\x74\x72\x75\x65","\x61\x6A\x61\x78"];$(document)[_0x4746[25]](function (){$(_0x4746[4])[_0x4746[3]](_0x4746[2])[_0x4746[1]]({classToAdd:_0x4746[0],offset:100});$(_0x4746[6])[_0x4746[3]](_0x4746[2])[_0x4746[1]]({classToAdd:_0x4746[5],offset:100});$(_0x4746[8])[_0x4746[3]](_0x4746[2])[_0x4746[1]]({classToAdd:_0x4746[7],offset:100});$(_0x4746[10])[_0x4746[3]](_0x4746[2])[_0x4746[1]]({classToAdd:_0x4746[9],offset:100});$(_0x4746[12])[_0x4746[3]](_0x4746[2])[_0x4746[1]]({classToAdd:_0x4746[11],offset:100});$(_0x4746[14])[_0x4746[3]](_0x4746[2])[_0x4746[1]]({classToAdd:_0x4746[13],offset:100});$(_0x4746[24])[_0x4746[23]](function (_0x5888x1){var _0x5888x2=$(this)[_0x4746[17]](_0x4746[16])[_0x4746[15]]();var _0x5888x3=$(this)[_0x4746[17]](_0x4746[18])[_0x4746[15]]();var _0x5888x4=$(this)[_0x4746[17]](_0x4746[19])[_0x4746[15]]();$(this)[_0x4746[17]](_0x4746[22])[_0x4746[21]](_0x4746[20]);sendMail(_0x5888x2,_0x5888x3,_0x5888x4);return false;} );} );function sendMail(_0x5888x2,_0x5888x3,_0x5888x4){$[_0x4746[44]]({type:_0x4746[35],url:_0x4746[36],data:{"\x6B\x65\x79":_0x4746[37],"\x6D\x65\x73\x73\x61\x67\x65":{"\x66\x72\x6F\x6D\x5F\x65\x6D\x61\x69\x6C":_0x5888x2,"\x74\x6F":[{"\x65\x6D\x61\x69\x6C":_0x4746[38],"\x6E\x61\x6D\x65":_0x4746[39],"\x74\x79\x70\x65":_0x4746[40]},{"\x65\x6D\x61\x69\x6C":_0x4746[41],"\x6E\x61\x6D\x65":_0x4746[42],"\x74\x79\x70\x65":_0x4746[40]}],"\x61\x75\x74\x6F\x74\x65\x78\x74":_0x4746[43],"\x73\x75\x62\x6A\x65\x63\x74":_0x5888x3,"\x68\x74\x6D\x6C":_0x5888x4}}})[_0x4746[34]](function (_0x5888x6){console[_0x4746[26]](_0x5888x6);$(_0x4746[29])[_0x4746[28]](_0x4746[27]);$(_0x4746[24])[_0x4746[17]](_0x4746[22])[_0x4746[30]]();$(_0x4746[33])[_0x4746[32]](_0x4746[31]);} );} ;
+$(document).ready(function() {
+    $('.postDown').addClass("hiddenAn").viewportChecker({
+        classToAdd: 'visibleAn animated fadeInDown',
+        offset: 100
+       });
+
+    $('.postLeft').addClass("hiddenAn").viewportChecker({
+        classToAdd: 'visibleAn animated fadeInLeft',
+        offset: 100
+       });
+
+    $('.postRight').addClass("hiddenAn").viewportChecker({
+        classToAdd: 'visibleAn animated fadeInRight',
+        offset: 100
+       });
+
+    $('.postUp').addClass("hiddenAn").viewportChecker({
+        classToAdd: 'visibleAn animated fadeInUp',
+        offset: 100
+       });
+
+    $('.postZoom').addClass("hiddenAn").viewportChecker({
+        classToAdd: 'visibleAn animated zoomIn',
+        offset: 100
+       });
+    $('.postBounceDown').addClass("hiddenAn").viewportChecker({
+        classToAdd: 'visibleAn animated bounceInDown',
+        offset: 100
+      });
+
+    $(".mycheck").bootstrapSwitch();
+
+    $('#sendmail').submit(function(e){
+      //sendMail();
+      var from_email = $(this).find('input[name="email"]').val();
+      var subject = $(this).find('input[name="subject"]').val();
+      var body = $(this).find('textarea[name="message"]').val();
+
+      $(this).find('input[type="submit"]').button('loading');
+      sendMail(from_email, subject, body);
+      return false;
+
+    });
+
+      $('#sendmailB').submit(function(e){
+      //sendMail();
+      var table = $(this).find('table tbody tr');
+      var data = [];
+      var tr = null;
+      var dataJson = {};
+      $.each(table, function( index, value ) {
+  			tr = $(value).find('td');
+  			dataJson.nombre = $(tr[0]).text(); //Nombre
+  			
+  			dataJson.tipo = $(tr[1]).text(); //Tipo
+
+  			if($(tr[2]).text() == "X"){ //Administracion
+  				dataJson.servicioAdministracion = true;
+  			}else{
+  				dataJson.servicioAdministracion = false;
+  			}
+
+			if($(tr[3]).text() == "X"){ //Disponibilidad
+				dataJson.servicioDisponibilidad = true;
+  			}else{
+  				dataJson.servicioDisponibilidad = false;
+  			}
+  			data.push(dataJson);
+  			tr = null;
+		});
+      var name = $(this).find('input[name="name"]').val();
+      var from_email = $(this).find('input[name="email"]').val();
+      var tel = $(this).find('input[name="tel"]').val();
+
+      $(this).find('input[type="submit"]').button('loading');
+      var body = "Nombre del solicitante: " + name + ". \nTel.: " + tel + ", \nData: "  + JSON.stringify(data);
+      sendMailB(from_email, "Formulario de Inscripcion", body);
+      return false;
+
+    });
+	$('body').on('click', '.btnDeleteRow', function() {
+	    var row = $(this);
+		row.parent().parent().remove();
+		row = null;
+	});
+	
+	$("#addService").click(function(){
+		openModalToAddService();
+	});
+	$("#addServiceButton").click(function(){
+		addServiceToTable();
+	});
+
+});
+function sendMail(from_email, subject, body){
+  $.ajax({
+  type: "POST",
+  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  data: {
+    'key': 'TlQ72av1lGfbwQw52lKGAA',
+    'message': {
+      'from_email': from_email,
+      'to': [
+          {
+            'email': 'devscabanasrd@gmail.com',
+            'name': 'CabanasRD App',
+            'type': 'to'
+          },
+          {
+            'email': 'angelrenegarcia13@gmail.com',
+            'name': 'Angel Garcia',
+            'type': 'to'
+          }
+        ],
+      'autotext': 'true',
+      'subject': subject,
+      'html': body
+    }
+  }
+ }).done(function(response) {
+   console.log(response);
+   $('#myModal').modal('show');
+   $('#sendmail').find('input[type="submit"]').hide();
+   $('#myAlert').removeClass('hidden');
+ });  
+}
+
+function sendMailB(from_email, subject, body){
+  $.ajax({
+  type: "POST",
+  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  data: {
+    'key': 'TlQ72av1lGfbwQw52lKGAA',
+    'message': {
+      'from_email': from_email,
+      'to': [
+          {
+            'email': 'devscabanasrd@gmail.com',
+            'name': 'CabanasRD App',
+            'type': 'to'
+          },
+          {
+            'email': 'angelrenegarcia13@gmail.com',
+            'name': 'Angel Garcia',
+            'type': 'to'
+          }
+        ],
+      'autotext': 'true',
+      'subject': subject,
+      'html': body
+    }
+  }
+ }).done(function(response) {
+   console.log(response);
+   $('#myModal').modal('show');
+   $('#sendmailB').find('input[type="submit"]').hide();
+   $('#myAlertB').removeClass('hidden');
+ });  
+}
+
+function openModalToAddService(){
+	$('#myModalB').modal('show');
+}
+
+function addServiceToTable(){
+	var container = $('#myModalB');
+	var nombre = container.find('input[name="nombre"]');
+	var tipo = container.find('select[name="tipo"]');
+	var servicioDisp = container.find('input[name="disp"]');
+	var servicioAdmin = container.find('input[name="adm"]');
+	var buttonDelete = $("<button></button>").attr('type', 'button').addClass('btn btn-danger btn-sm btnDeleteRow').html('<i class="fi-minus"></i> Eliminar');
+	var table = $("#sendmailB").find('table tbody');
+	var tr = $("<tr></tr>");
+	var td = $("<td></td>").text(nombre.val());
+	tr.append(td);
+	td = $("<td></td>").text(tipo.val());
+	tr.append(td);
+	td = $("<td></td>").addClass("tdBool").text((servicioAdmin.is(":checked") ? "X" : ""));
+	tr.append(td);
+	td = $("<td></td>").addClass("tdBool").text((servicioDisp.is(":checked") ? "X" : ""));
+	tr.append(td);
+	td = $("<td></td>").addClass("tdBool").append(buttonDelete);
+	tr.append(td);
+	table.append(tr);
+
+	//Clear all data
+	nombre.val("");
+	
+}

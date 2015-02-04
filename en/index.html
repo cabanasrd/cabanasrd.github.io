@@ -280,13 +280,67 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
     <br>
 </div>
 
+
+<div id="contactB" class="container">
+    <br>
+    <h1 class="title postZoom">¿Even aren't you in Cabañas RD?</h3>
+    <div class="titleSeparator postZoom"></div>
+    <h4 class="subtitle postZoom">Increase your customers, promote your service and improve your relationship with your customers. </h4>
+    <br>
+    <br>
+    <div class="row">
+          <div class="col-sm-6 col-xs-12 col-centered">
+            <form name="sendmailB" id="sendmailB" action="#" method="POST">
+                <input type="text" name="name" placeholder="Name of applicant..." required="" class="postLeft">
+                <input type="tel" name="tel" placeholder="Tel..." required="" class="postRight">
+                <input type="email" name="email" placeholder="Email..." required="" class="postLeft">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Establishment / Business</h3>
+                  </div>
+                  <div class="panel-body">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <caption>
+                      <button type="button" id="addService" class="btn btn-default btn-lg standard-button custon-button">
+                            <i class="fi-plus"></i> Add Establishment</button>
+                            <br>
+                            &nbsp;&nbsp;List of added establishments.
+                      </caption>
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Type</th>
+                          <th class="tdBool">Administration</th>
+                          <th class="tdBool">Availability</th>
+                          <th class="tdBool">Options</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
+                    </div>
+                  </div>
+                </div>
+                <input type="submit" value="SEND REQUEST" data-loading-text="Sending..." class="postBounceDown"> 
+                </form>
+                <div id="myAlertB" class="alert alert-warning alert-dismissible fade in hidden" role="alert">
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                  <strong>Your message has been sent successfully!</strong> We will contact you as soon as possible.
+                </div>
+          </div><!-- /.col-lg-6 -->
+          
+    </div><!-- /.row -->
+    <br>
+</div>
 <div id="footer" class="container-fluid">
     <div class="social">
         <i class="fi fi-social-facebook" onclick="window.open('https://www.facebook.com/cabanasrd', '_blank'); "></i>
         <i class="fi fi-social-twitter"></i>
         <i class="fi fi-social-instagram"></i>
     </div>
-    <p>©2014 CabañasRD, All Rights Reserved.</p>
+    <p>©2015 CabañasRD, All Rights Reserved.</p>
         <br>
     <p>Designed by <a href="http://angelrenegarcia.com/" class="linkTo">Angel Garcia</a></p>
 </div>
@@ -306,11 +360,64 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
         </p>
       </div>
       <div class="modal-footer" style="text-align: center;">
-        <button type="button" class="btn btn-default" data-dismiss="modal" style="background: #d4792f;color: #fff;border: #d4792f;">Cerrar</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal" style="background: #d4792f;color: #fff;border: #d4792f;">Close</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+<div class="modal fade" id="myModalB">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background: #d4792f;color: #fff;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Adding Establishment</h4>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <input type="text" name="nombre" placeholder="Name..." required="" class="">
+            <br>
+            <p style="font-size: large;">
+                Establishment type: 
+            </p>
+            
+            <select class="form-control selectForm" name="tipo">
+              <option value="Cabaña">Cottage</option>
+              <option value="Hotel">Hotel</option>
+              <option value="Motel">Motel</option>
+            </select>
+            <div class="optionsContainer">
+            <div class="row">
+                <div class="col-sm-12 col-md-8" style="padding-top: 3px;font-size: large;text-align:left;">
+                    Information Management Service
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <input type="checkbox" name="adm" data-on-text="Yes" data-off-text="No" class="mycheck">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-12 col-md-8" style="padding-top: 3px;font-size: large;text-align:left;">
+                    Availability Service
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <input type="checkbox" name="disp" data-on-text="Yes" data-off-text="No" class="mycheck">
+                </div>
+            </div>
+              
+               
+            </div>
+
+        </div>
+      </div>
+      <div class="modal-footer" style="text-align: center;">
+      <button type="button" class="btn btn-success" data-dismiss="modal" id="addServiceButton">Add</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal" >Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../js/jquery.min.js"></script>
 

@@ -321,6 +321,23 @@ outline: 0 transparent;
 input, select {
 vertical-align: middle;
 }
+
+td{
+    text-align: left;
+}
+.tdBool{
+    text-align: center;
+}
+.optionsContainer{
+    
+}
+.selectForm{
+    margin: auto;
+height: 50px;
+width:85%;font-size:16px;margin-bottom:20px;padding:15px 16px;border:2px solid #ccc;-webkit-border-radius:45px;-moz-border-radius:45px;border-radius:45px;color:#666;transition:border-color .6s;-webkit-transition:border-color .6s;
+}
+
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.product-info {
