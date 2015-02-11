@@ -51,7 +51,8 @@ $(document).ready(function() {
       $.each(table, function( index, value ) {
   			tr = $(value).find('td');
   			dataJson.nombre = $(tr[0]).text(); //Nombre
-  			
+  			dataJson.lat = $(tr[0]).data( "position" ).lat; //Latitud
+  			dataJson.lng = $(tr[0]).data( "position" ).lng; //Longitud
   			dataJson.tipo = $(tr[1]).text(); //Tipo
 
   			if($(tr[2]).text() == "X"){ //Administracion
@@ -90,6 +91,7 @@ $(document).ready(function() {
 	$("#addServiceButton").click(function(){
 		addServiceToTable();
 	});
+
 
 });
 function sendMail(from_email, subject, body){
@@ -165,13 +167,15 @@ function openModalToAddService(){
 function addServiceToTable(){
 	var container = $('#myModalB');
 	var nombre = container.find('input[name="nombre"]');
+	var lat = container.find('#latText');
+	var lng = container.find('#lngText');
 	var tipo = container.find('select[name="tipo"]');
 	var servicioDisp = container.find('input[name="disp"]');
 	var servicioAdmin = container.find('input[name="adm"]');
 	var buttonDelete = $("<button></button>").attr('type', 'button').addClass('btn btn-danger btn-sm btnDeleteRow').html('<i class="fi-minus"></i> Eliminar');
 	var table = $("#sendmailB").find('table tbody');
 	var tr = $("<tr></tr>");
-	var td = $("<td></td>").text(nombre.val());
+	var td = $("<td></td>").text(nombre.val()).data( "position", { lat: lat.val(), lng: lng.val()  } );
 	tr.append(td);
 	td = $("<td></td>").text(tipo.val());
 	tr.append(td);
@@ -185,5 +189,7 @@ function addServiceToTable(){
 
 	//Clear all data
 	nombre.val("");
+	lat.val("");
+	lng.val("");
 	
 }

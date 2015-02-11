@@ -337,6 +337,11 @@ height: 50px;
 width:85%;font-size:16px;margin-bottom:20px;padding:15px 16px;border:2px solid #ccc;-webkit-border-radius:45px;-moz-border-radius:45px;border-radius:45px;color:#666;transition:border-color .6s;-webkit-transition:border-color .6s;
 }
 
+#map-canvas {
+    height: 300px; 
+    margin: 0; 
+    padding: 0;
+}
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
