@@ -408,6 +408,30 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
                     <input type="checkbox" name="disp" data-on-text="Yes" data-off-text="No" class="mycheck">
                 </div>
             </div>
+            <br><br>
+            <div class="row">
+            <div class="col-sm-12 col-md-12" style="padding-top: 3px;font-size: large;text-align:left;padding-bottom: 10px;">
+                    Select the location of the site.
+                </div>
+                <div class="col-sm-12 col-md-12">
+                    <div id="map-canvas"></div>
+                </div>
+                <br>
+                <br>
+                <div class="col-sm-12 col-md-12" style="padding-top: 3px;font-size: large;text-align:left;">
+                     <div class="col-sm-6 col-md-6">
+                        &nbsp;&nbsp;&nbsp;Latitude: 
+                         <input type="text" name="lat" id="latText" placeholder="Latitude" disabled="">
+                     </div>
+                      <div class="col-sm-6 col-md-6">
+                        &nbsp;&nbsp;&nbsp;Longitude: 
+                           <input type="text" name="long" id="lngText" placeholder="Longitude" disabled="">
+                      </div>
+                    
+                   
+                </div>
+                
+            </div>
               
                
             </div>
@@ -442,5 +466,69 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
   ga('send', 'pageview');
 
 </script>
+
+</script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG8z2q4ALjom26tycLu9DMtGppXpiPAFU&language=es&extension=.js&output=embed">
+    </script>
+    
+    
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: { lat: 18.86471, lng: -71.36719},
+          zoom: 8
+
+        };
+        
+        
+        
+        
+         map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+            
+         marker = new google.maps.Marker({
+            map:map,
+            draggable:true,
+            animation: google.maps.Animation.DROP,
+            icon: 'ic_google_map_marker.png',
+            
+            position: { lat: 18.86471, lng: -71.36719}
+          });
+          google.maps.event.addListener(marker, 'click', toggleBounce);
+     google.maps.event.addListener(marker, "dragend", function(event) { 
+          var lat = event.latLng.lat(); 
+          var lng = event.latLng.lng(); 
+        map.setCenter(new google.maps.LatLng(lat, lng));
+        setLatLngText(lat, lng);
+        //map.setZoom(11);      
+        }); 
+    
+      }
+      function toggleBounce() {
+
+          if (marker.getAnimation() != null) {
+            marker.setAnimation(null);
+            
+          } else {
+            marker.setAnimation(google.maps.Animation.BOUNCE);
+            
+          }
+          
+          //alert(marker.getPosition().lat())
+    }
+    function setLatLngText(lat, lng){
+        $("#latText").val(lat);
+        $("#lngText").val(lng);
+    }
+      
+      
+      google.maps.event.addDomListener(window, 'load', initialize);
+         
+    $('#myModalB').on('shown.bs.modal', function () {
+        google.maps.event.trigger(map, "resize");
+        map.setZoom(7); 
+    });
+    </script>
   </body>
 </html>
