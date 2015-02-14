@@ -18,7 +18,7 @@ html{height:100%}body{height:100%;margin:0;padding:0}#map-canvas{height:100%}.ti
 
     
     <script type="text/javascript">
-      //detectDevice();
+      detectDevice();
 	  detectBrowser();
       </script>
     <script type="text/javascript">
@@ -94,7 +94,7 @@ function zoom(lat,long) {
 
 function initialize() {
   var mapOptions = {
-    zoom: 8,
+    zoom: 5,
     center: new google.maps.LatLng(18.86471, -71.36719),
     mapTypeId: google.maps.MapTypeId.ROADMAP
   }
