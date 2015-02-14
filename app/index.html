@@ -5,7 +5,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     
     <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRTbpKTzcUQOuc4-vE9-x6zOy5oh7M_EQ&sensor=false">
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRTbpKTzcUQOuc4-vE9-x6zOy5oh7M_EQ&language=es&v=3.9&sensor=true_or_false">
     </script>
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 <link href="css/simple-sidebar.css" rel="stylesheet">
@@ -19,6 +19,7 @@ html{height:100%}body{height:100%;margin:0;padding:0}#map-canvas{height:100%}.ti
     
     <script type="text/javascript">
       //detectDevice();
+	  detectBrowser();
       </script>
     <script type="text/javascript">
 	
@@ -35,6 +36,18 @@ function addCommas(nStr)
       x1 = x1.replace(rgx, '$1' + ',' + '$2');
    }
    return x1 + x2;
+}
+function detectBrowser() {
+  var useragent = navigator.userAgent;
+  var mapdiv = document.getElementById("map-canvas");
+
+  if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
+    mapdiv.style.width = '100%';
+    mapdiv.style.height = '100%';
+  } else {
+    mapdiv.style.width = '600px';
+    mapdiv.style.height = '800px';
+  }
 }
 
 var map;
@@ -92,6 +105,7 @@ for( i in cabannaes)
 
 }
 
+
 google.maps.event.addDomListener(window, 'load', initialize);
     </script>
   </head>
@@ -100,7 +114,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <div class="container-fluid">
     <div class="navbar-header">
       <a href="#menu-toggle" style="font-size: 23px;text-decoration: none;color: #fff;border-style:none;" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger" style="border-style:none;"aria-hidden="true"></span></a>
-      <span class="navbar-title">Cabañas RD Web Mobil</span>
+      <span class="navbar-title">Cabañas RD</span>
     </div>
   </div>
 </nav>
