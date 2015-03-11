@@ -343,6 +343,30 @@ width:85%;font-size:16px;margin-bottom:20px;padding:15px 16px;border:2px solid #
     padding: 0;
 }
 
+.white{
+    color: #fff
+}
+
+.graycolor{
+    color: #212121
+}
+.blueIcon{
+    color: #2C74C7;
+}
+.panel-body{
+    color: #212121;
+}
+.panel-title>a {
+color: inherit;
+display: block;
+ font-family: 'robotothin';
+ font-size: larger;
+ font-weight: bold;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+border-top-color: #ddd;
+font-size: larger;
+}
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 	.product-info {

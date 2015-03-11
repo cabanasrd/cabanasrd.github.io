@@ -60,10 +60,14 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
                     <p>
                             <a href="#download" class="btn btn-default btn-lg standard-button custon-button smoothScroll">
                             <i class="fi-download"></i>Download the app</a>
-                             or
               
                             <a href="#contactB" class="btn btn-default btn-lg standard-button custon-button smoothScroll">
                             <i class="fi-download"></i> Add your Business</a>
+                        
+                            or
+                            
+                            <a href="http://cabanasrdapi.azurewebsites.net/" target="_blank" class="btn btn-default btn-lg standard-button custon-button smoothScroll">
+                            <i class="fi-plus"></i> Manage your business</a>
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-6">
@@ -403,7 +407,7 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
             <div class="optionsContainer">
             <div class="row">
                 <div class="col-sm-12 col-md-8" style="padding-top: 3px;font-size: large;text-align:left;">
-                    Information Management Service
+                    <span class="glyphicon glyphicon-question-sign blueIcon" data-toggle="tooltip" data-placement="top" title="We offer access to the management portal for information from your local"></span> Information Management Service
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <input type="checkbox" name="adm" data-on-text="Yes" data-off-text="No" class="mycheck">
@@ -412,7 +416,7 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
             <br>
             <div class="row">
                 <div class="col-sm-12 col-md-8" style="padding-top: 3px;font-size: large;text-align:left;">
-                    Availability Service
+                    <span class="glyphicon glyphicon-question-sign blueIcon" data-toggle="tooltip" data-placement="top" title="Soon we will have ready a panel so you can report the availability of your services"></span> Availability Service
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <input type="checkbox" name="disp" data-on-text="Yes" data-off-text="No" class="mycheck">
@@ -484,6 +488,9 @@ CabanasRD es una herramienta esencial para turistas y/o cualquier persona que de
     
     
     <script type="text/javascript">
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
       function initialize() {
         var mapOptions = {
           center: { lat: 18.86471, lng: -71.36719},
