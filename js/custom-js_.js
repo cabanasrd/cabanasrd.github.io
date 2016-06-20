@@ -58,29 +58,15 @@ $(document).ready(function() {
 
 });
 function sendMail(from_email, subject, body){
-  $.ajax({
+ $.ajax({
   type: "POST",
-  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  url: "http://emailservice481.azurewebsites.net/api/Values",
+  headers: {"Access-Control-Allow-Origin": "*"},
   data: {
-    'key': 'TlQ72av1lGfbwQw52lKGAA',
-    'message': {
-      'from_email': from_email,
-      'to': [
-          {
-            'email': 'devscabanasrd@gmail.com',
-            'name': 'CabanasRD App',
-            'type': 'to'
-          },
-          {
-            'email': 'angelrenegarcia13@gmail.com',
-            'name': 'Angel Garcia',
-            'type': 'to'
-          }
-        ],
-      'autotext': 'true',
-      'subject': subject,
-      'html': body
-    }
+      'SenderEmail': from_email,
+      'Subject': subject,
+      'Source':'cabanasrd',
+      'BodyText': body
   }
  }).done(function(response) {
    console.log(response);
@@ -91,29 +77,15 @@ function sendMail(from_email, subject, body){
 }
 
 function sendMailB(from_email, subject, body){
-  $.ajax({
+ $.ajax({
   type: "POST",
-  url: "https://mandrillapp.com/api/1.0/messages/send.json",
+  url: "http://emailservice481.azurewebsites.net/api/Values",
+  headers: {"Access-Control-Allow-Origin": "*"},
   data: {
-    'key': 'TlQ72av1lGfbwQw52lKGAA',
-    'message': {
-      'from_email': from_email,
-      'to': [
-          {
-            'email': 'devscabanasrd@gmail.com',
-            'name': 'CabanasRD App',
-            'type': 'to'
-          },
-          {
-            'email': 'angelrenegarcia13@gmail.com',
-            'name': 'Angel Garcia',
-            'type': 'to'
-          }
-        ],
-      'autotext': 'true',
-      'subject': subject,
-      'html': body
-    }
+      'SenderEmail': from_email,
+      'Subject': subject,
+      'Source':'cabanasrd',
+      'BodyText': body
   }
  }).done(function(response) {
    console.log(response);
