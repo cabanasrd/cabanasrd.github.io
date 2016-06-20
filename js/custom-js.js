@@ -95,7 +95,6 @@ $(document).ready(function() {
 
 });
 function sendMail(from_email, subject, body){
-  subject = "Pagina wearecode " +subject;
   $.ajax({
   type: "POST",
   url: "http://emailservice481.azurewebsites.net/api/Values",
